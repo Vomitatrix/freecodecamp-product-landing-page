@@ -1,4 +1,28 @@
-html{
+body{
     display: flex;
-    margin: auto;
+    flex-direction: column;
+}
+
+header{
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: ivory;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    margin: 1em;
+}
+
+img{
+    max-height: 50px;
+    width: auto;
 }
