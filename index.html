@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -8,7 +8,9 @@
     </head>
     <body id="main">
         <header id="header">
-            <img id="header-img" src="img/logo.png" alt="">
+            <div class="logo">
+                <img id="header-img" src="img/logo.png" alt="">
+            </div>
             <nav id="nav-bar">
                 <ul>
                     <li><a class="nav-link" href="#features">Features</a></li>
@@ -17,8 +19,8 @@
                 </ul>
             </nav>
         </header>
-        <div>
-            <h1 id="title">Handcrafter, home-made masterpieces</h1>
+        <div id="title">
+            <h2>Handcrafter, home-made masterpieces</h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <input id="email" type="email" name="email" placeholder="Enter your email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]" required>
                 <input id="submit" type="submit" value="GET STARTED">
@@ -59,7 +61,7 @@
             </div>
             <div id="pricing">
                 <div class="product">
-                    <div>
+                    <div class="level">
                         <p>TENOR TROMBONE</p>
                     </div>
                     <div>
@@ -72,7 +74,7 @@
                     <button type="button">SELECT</button>
                 </div>
                 <div class="product">
-                    <div>
+                    <div class="level">
                         <p>BASS TROMBONE</p>
                     </div>
                     <div>
@@ -85,7 +87,7 @@
                     <button type="button">SELECT</button>
                 </div>
                 <div class="product">
-                    <div>
+                    <div class="level">
                         <p>VALVE TROMBONE</p>
                     </div>
                     <div>
@@ -100,16 +102,12 @@
             </div>
         </div>
         <footer id="footer">
-            <div>
                 <ul>
                     <li>Privacy</li>
                     <li>Terms</li>
                     <li>Contact</li>
                 </ul>
-            </div>
-            <div>
                 <p>Copyright 2016, Original Trombones</p>
-            </div>
         </footer>
     </body>
 </html>
